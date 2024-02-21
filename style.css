@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center; 
+    padding: 10px 0 0;
+}
+.nav-logo{
+    display: flex; 
+    justify-content:center;
+    align-items:center; 
+
+}
+.nav-logo h1{
+    font-size:30px;
+    font-family: sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+}
+.header{
+    padding-top: 20px;
+}
+.headings{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:40px;
+}
+img{
+    width:350px;
+    height:350px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: #d6a762;
+    font-size:15px;
+    width:150px;
+    height:50px;
+    border-radius:5px;
+    color:black;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-heading, .primary-heading,.tittle-three,.tittle-two{
+    font-size: 3.2rem;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 110px;
+}
+.tittle{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:30px;
+}
+.tittle p{
+text-align: start;
+}
+.tittle-two h1{
+    font-size: 45px;
+}
+.cfespn{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:480px;
+    height:480px;
+}
+.products{
+    margin:60px; 
+}
+.box{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #d6a762;
+    border-radius: 5px;
+ }
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 80px 0 0;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.mocha{   
+    text-align: center;
+    padding:60px;
+}
+.box button{
+    margin-top: 40px;
+}
+.E,.S,.M {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.E,.S,.M p { 
+    font-size: 16px;
+}
+hr {
+    width: 480px; 
+    border-color: #d6a762;
+    margin:auto;
+}
+footer h1 {
+    font-family: sans-serif;
+}
+.pgbtm {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+.A,.C,.O {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.A,.C,.O p{
+    font-size: 16px;
+    text-align: center;
+} 
+span{
+    color:#d6a762;
+}
+p {
+    text-align: center;
+    
+} 
